@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>jogo da velha</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <div class="jumbotron">
+      <center><h1 style="font-family: Verdana;">Jogo da Velha</h1>
+        <table class="parte1" style="align:center;">
+          <tr>
+            <th><input value="" type="button" id="1" class="top" onclick="bloco(1);confirma()"></th>
+            <th><input value="" type="button" id="2" class="top" onclick="bloco(2);confirma()"></th>
+            <th><input value="" type="button" id="3" class="top" onclick="bloco(3);confirma()"></th>
+          </tr>
+          
+          <tr>
+            <th><input value="" type="button" id="4" class="top" onclick="bloco(4);confirma()"></th>
+            <th><input value="" type="button" id="5" class="top" onclick="bloco(5);confirma()"></th>
+            <th><input value="" type="button" id="6" class="top" onclick="bloco(6);confirma()"></th>
+          </tr>
+          
+          <tr>
+            <th><input value="" type="button" id="7" class="top" onclick="bloco(7);confirma()"></th>
+            <th><input value="" type="button" id="8" class="top" onclick="bloco(8);confirma()"></th>
+            <th><input value="" type="button" id="9" class="top" onclick="bloco(9);confirma()"></th>
+          </tr>
+      </table>
+
+      <br>
+					<div class="row">
+						<div class="col-sm-4">
+								<div class="input-group form-group">
+									<input type="text" id="X" value="" placeholder="Jog1 (X)" class="btn">
+								  <input type="text" id="O" value="" placeholder="Jog2 (O)" class="btn">
+								</div>
+								<br>
+						<div class="col-sm-4">
+								<div class="input-group form-group">
+								  <input type="button" value="reset" class="btn btn-success reset" id="apaga" onclick="apaga();">
+								</div>
+						</div>
+				</div>
+			</center>
+    
+  </body>
+</html>
