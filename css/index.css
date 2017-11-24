@@ -1,0 +1,37 @@
+.top {
+  border: 0;
+  width: 90.9px;
+  height: 80px;
+  font-size: 30px;
+}
+
+.reset {
+    border-radius: 12px;
+    background-color: #bc8f8f;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#X { 
+  border: 2px solid #7f5454;
+  font-family: verdana;
+  text-align: center;
+  width: 207px;
+  font-size: 20px;
+}
+
+#O {
+  border: 2px solid #7f5454;
+  font-family: verdana;
+  text-align: center;
+  width: 207px;
+  font-size: 20px;
+}
