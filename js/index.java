@@ -93,7 +93,7 @@ vez = 1;
        ((top7.value == "O") && (top7.value == "O") && (top9.value == "O"))  ||
        ((top4.value == "O") && (top5.value == "O") && (top6.value == "O"))  ||
       //diagonal//
-        ((top3.value == "O") && (top5.value == "O") && (top6.value == "O")) ||
+        ((top3.value == "O") && (top5.value == "O") && (top7.value == "O")) ||
         ((top1.value == "O") && (top5.value == "O") && (top7.value == "O")) ||
       //vertical//
         ((top1.value == "O") && (top4.value == "O") && (top7.value == "O")) ||
