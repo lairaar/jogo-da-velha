@@ -1,6 +1,6 @@
 var contX = 0;
 var contO = 0;
-var cont = 0;
+var cont = 1;
 var vez = 1;
   function apaga() {
 			var top1 = document.getElementById("1");
@@ -23,7 +23,7 @@ var vez = 1;
 			top9.value = "";
 			document.getElementById("O").disabled = false;
 			document.getElementById("X").disabled = false; 
-			cont=0;
+			cont=1;
 		}
 		
   function bloco(campo) {
@@ -55,7 +55,7 @@ var vez = 1;
 			 }
   }
      
-  function comfirma() {
+  function confirma() {
     var jog1 = document.getElementById("jog1");
     var jog2 = document.getElementById("jog2");
     var top1 = document.getElementById("1");
@@ -84,7 +84,8 @@ var vez = 1;
         ((top3.value == "X") && (top6.value == "X") && (top9.value == "X")))
       {
         if (X.value !== "") {
-				alert(X.value + " " + "ganhou!")
+				alert(X.value + " " + "ganhou!");
+				cont = 1;
           }
 				else {
 				alert("jog1 ganhou!");
@@ -110,7 +111,7 @@ var vez = 1;
           }
           else {
             alert("jog2 ganhou!");
-            cont = 0;
+            cont = 1;
           }
         }
         velha(top1, top2, top3, top4, top5, top6, top7, top8, top9);
@@ -118,6 +119,7 @@ var vez = 1;
           
   
     function velha(top1, top2, top3, top4, top5, top6, top7, top8, top9){
+      console.log(cont);
       if (cont == 9) {
     alert("velha!!") ; 
   
