@@ -121,7 +121,7 @@ var vez = 1;
     function velha(top1, top2, top3, top4, top5, top6, top7, top8, top9){
       console.log(cont);
       if (cont == 9) {
-    alert("velha!!") ; 
+    alert("Deu velha!") ; 
   
       }
      
